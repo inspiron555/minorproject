@@ -1,0 +1,73 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(https://img.freepik.com/free-vector/gradient-network-connection-background_23-2148881321.jpg?t=st=1732630289~exp=1732633889~hmac=f1240d1c415a12ced901c67177311e0835d7ef16bbcd613d3c8e3caf8f190b2e&w=996);
+    /* Replace with the path to your image */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.form{
+    width: 420px;
+    background:#f1e3e3;
+    border-radius: 10px;
+    padding: 30px 40px;
+}
+.one{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 40px 0;
+}
+
+    .one input{
+        width: 97%;
+        height: 100%;
+        background: transparent;
+        border: none;
+        outline: none;
+        border: 2px solid black;
+        border-radius: 40px;
+        font-size: 16px;
+        padding: 6px;
+    
+    }
+    .one i{
+        position: absolute;
+        right: 20px;
+        top: 50%;
+        transform: translateY(-50%);
+        font-size: 20px;
+    }
+    .three{
+        display: flex;
+        justify-content: space-between;
+        font-size: 14.5px;
+        margin: -15px 0 15px;
+    
+        }
+    .form .btn{
+        width: 100%;
+        height: 45px;
+        background: #fff;
+        border: none;
+        outline: none;
+        border-radius: 40px;
+        box-shadow: 0px 0px 10px;
+        cursor: pointer;
+        font-size: 16px;
+        color: #333;
+        font-weight: 600;
+        
+
+    }
+.four{
+    text-align: center;
+
+}

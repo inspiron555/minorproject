@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Threat Detection System</title>
+    <link rel="stylesheet" href="login.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<style>
+    #lol{
+         text-align: center;
+    }
+    a:hover{
+        color: aqua;
+    }
+</style>
+<body>
+        <div class="form">
+            <form action="http://localhost:3000/login" method="POST">
+            <h1 id="lol">Login</h1>
+            <div class="one">
+            <input   type="text"placeholder="username" required>
+            <i class="fa-solid fa-user"></i>
+    </div>
+       <div class="one">
+       <input type="password" placeholder="password" required>
+       <i class="fa-solid fa-lock"></i>
+    </div>
+       <div class="three">
+      <label> <input type="checkbox"> Remember me</label>
+      <a href="#">Forget password?</a>
+            </div>
+    <button type="submit" class="btn">Login</button>
+    <div class="four">
+        <p>Don't have account?<a href="registration.html">Register</a></p>
+    </div>
+    
+    
+       </div>
+
+</body>
+</html>
